@@ -4,7 +4,7 @@
  <div class="navbar">
         <div class="leftnavbar">
             <h2>Food
-                <span>ORA</span>
+                <span class="ora">ORA</span>
             </h2>
         </div>
         <div class="rightnavbar">
