@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Start navbar */
+.navbar{
+    background-color: black;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.navbar .leftnavbar{
+    margin-left: 30px;
+    margin-right: 300px;
+}
+
+.navbar .leftnavbar h2{
+    color: white;
+    font-size: 20px;
+
+
+}
+.navbar .leftnavbar span{
+    color: aqua;
+    font-size: 40px;
+}
+.navbar .rightnavbar{
+    margin-left: 200px;
+    align-items:center ;
+   
+}
+.navbar .rightnavbar ul {
+    display: flex;
+
+}
+.navbar .rightnavbar ul li{
+    list-style: none;
+  
+}
+.navbar .rightnavbar ul li a{
+    list-style: none;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.navbar .rightnavbar ul li a:hover{
+    color:orange;
+}
+.navbar .register {
+   padding: 20px;
+    margin-left: 250px;
+    display: flex;
+}
+.navbar .register a{
+    padding: 7px 15px;
+    margin-left: 10px;
+    border: 1px solid black;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+
+}
+.navbar .register a:hover{
+    background-color: brown;
+}
+/* End navbar */
+/* Start seconddiv */
+.seconddiv{
+    background-image: url("https://img.magnific.com/free-photo/top-view-cropped-hands-senior-cook-unrecognizable-cutting-carrot-cooking-vegetable-stew_1098-20510.jpg?semt=ais_hybrid&w=740&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.seconddiv h1{
+    padding-top: 20px;
+    font-size: 50px;
+    padding-left: 20px;
+}
+.seconddiv p{
+    font-size: 20px;
+    padding:20px 20px;
+    color:white;
+    padding-top: 30px;
+}
+.seconddiv button{
+    border-radius: 2px;
+    background-color: orange;
+    margin: 40px 40px;
+    color: black;
+    border: 1px solid orange;
+    padding:7px 15px;
+}
+.seconddiv button:hover{
+    background-color: brown;}
+/* End seconddiv */
+/* start thirddiv */
+.thirddiv{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+
+}
+.thirddiv h2{
+    margin-right: 250px;
+}
+.thirddiv i{
+    font-size: 45px;
+    padding-right: 50px;
+}
+.thirddiv span{
+    padding-right: 50px;
+    font-size: 20px;
+}
+/* End thirddiv */
+/* Start fourthdiv */
+.fourthdiv{
+    display: flex;
+   background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJAgms1AG9Xk-YNJUbGbyjsYtw9bvniIhqnFaisS5nwqVisYO7oh_0UnQ&s=10");
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.fourthdiv .firstdish{
+    margin-left: 100px;
+
+}
+.fourthdiv .firstdish h5{
+    font-size: 30px;
+
+}
+.fourthdiv .firstdish p:nth-of-type(1){
+    color: white;
+    font-size: 15px;
+}
+.fourthdiv .firstdish p:nth-of-type(2){
+    color:teal;
+    font-size: 20px;
+}
+.fourthdiv .seconddish{
+     margin-left: 100px;
+     margin-right: 100px;
+
+}
+.fourthdiv .seconddish h5{
+    font-size: 30px;
+
+}
+.fourthdiv .seconddish p:nth-of-type(1){
+    color: white;
+    font-size: 15px;
+}
+.fourthdiv .seconddish p:nth-of-type(2){
+     color:teal;
+    font-size: 20px;
+}
+.fourthdiv .thirddish{
+     margin-right: 100px;
+   
+}
+.fourthdiv .thirddish h5{
+      font-size: 30px;
+
+}
+.fourthdiv .thirddish  p:nth-of-type(1){
+    color: white;
+    font-size: 15px;
+
+}
+.fourthdiv .thirddish p:nth-of-type(2){
+      color:teal;
+    font-size: 20px;
+
+}
