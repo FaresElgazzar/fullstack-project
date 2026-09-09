@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Start home page */
 /* Start navbar */
 .navbar{
     background-color: black;
@@ -21,7 +22,7 @@
 
 
 }
-.navbar .leftnavbar span{
+ .ora{
     color: aqua;
     font-size: 40px;
 }
@@ -79,23 +80,30 @@
     padding-top: 20px;
     font-size: 50px;
     padding-left: 20px;
+    text-align: center;
 }
 .seconddiv p{
-    font-size: 20px;
+    font-size: 17px;
     padding:20px 20px;
     color:white;
     padding-top: 30px;
+    font-weight: 100;
 }
-.seconddiv button{
-    border-radius: 2px;
+.seconddiv a{
+    border-radius: 7px;
     background-color: orange;
-    margin: 40px 40px;
-    color: black;
+    margin-left: 700px;
+    margin-top: 30px;
+    color: white;
     border: 1px solid orange;
-    padding:7px 15px;
+    padding:7px 17px;
+    text-decoration: none;
+
 }
-.seconddiv button:hover{
-    background-color: brown;}
+.seconddiv a:hover{
+    background-color: brown;
+
+}
 /* End seconddiv */
 /* start thirddiv */
 .thirddiv{
@@ -124,12 +132,23 @@
    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJAgms1AG9Xk-YNJUbGbyjsYtw9bvniIhqnFaisS5nwqVisYO7oh_0UnQ&s=10");
    background-repeat: no-repeat;
    background-size: cover;
-   
+   height: 400px;
+   align-items: center;
 }
 .fourthdiv .firstdish{
     margin-left: 100px;
-
+    width: 33,3%;
+      flex-direction: column;
+      transition: all 0.5s ease;
 }
+.fourthdiv .firstdish:hover{
+    transform: translate(7px,-10px);
+}
+.fourthdiv .firstdish img{
+    width: 200px;
+    margin-top: 10px;
+}
+
 .fourthdiv .firstdish h5{
     font-size: 30px;
 
@@ -142,38 +161,153 @@
     color:teal;
     font-size: 20px;
 }
-.fourthdiv .seconddish{
-     margin-left: 100px;
-     margin-right: 100px;
+.fifthdiv {
+    height: 700px;
+    background-color: #f8f8f8;
+    text-align: center;
 
 }
-.fourthdiv .seconddish h5{
+.fifthdiv .containerfood .whyfood{
+    width: 75%;
+    margin-left: 220px;
+    margin-bottom: 15px;
+    background-color: white;
+    padding: 35px 25px;
+    border-radius: 18px;
+    transition: all 0.3s ease;
+    border: 1px solid #eee;
+
+}
+.fifthdiv .containerfood .whyfood:hover{
+    transform: translate(5px,-8px);
+}
+.fifthdiv h1{
+    /* text-align: center; */
+    font-size: 40px;
+    margin-left: 22px;
+    color: #111;
+    margin-bottom: 20px;
+}
+.fifthdiv .containerfood{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.fifthdiv .containerfood .whyfood h3{
     font-size: 30px;
-
+    font-weight: 700;
+    color: #111;
 }
-.fourthdiv .seconddish p:nth-of-type(1){
-    color: white;
+.fifthdiv .containerfood .whyfood p{
     font-size: 15px;
+    color: #666;
 }
-.fourthdiv .seconddish p:nth-of-type(2){
-     color:teal;
-    font-size: 20px;
-}
-.fourthdiv .thirddish{
-     margin-right: 100px;
-   
-}
-.fourthdiv .thirddish h5{
-      font-size: 30px;
+.sixdiv{
+    height:70px;
+    background-color: #111;
+    align-items: center;
+    display: flex;
+    
 
 }
-.fourthdiv .thirddish  p:nth-of-type(1){
+.sixdiv p{
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 30px;
     color: white;
-    font-size: 15px;
-
+    margin-right: 400px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
 }
-.fourthdiv .thirddish p:nth-of-type(2){
-      color:teal;
-    font-size: 20px;
-
+.sixdiv a{
+    margin-left: 100px;
+    transition: all 0,5 ease;
 }
+.sixdiv a i {
+     color: grey;
+     margin-right: 80px;
+}
+.sixdiv a:hover{
+    transform: translate(3px,-5px);
+}
+
+/* START contact page */
+.contact{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/020/804/109/small/communication-and-technology-concept-hand-putting-wooden-block-cube-symbol-telephone-email-address-website-page-contact-us-or-e-mail-marketing-contact-us-in-customer-support-concept-photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.contact h1{
+    text-align: center;
+    padding-top: 30px;
+    color: grey;
+    font-weight: 1000;
+    font-size: 41px;
+}
+.contact h1 span i{
+    color: black;
+}
+.contact p{
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+font-size: 19px;
+font-weight: 400; 
+}
+.containercontact{
+    display: flex;
+    justify-content: center; 
+    align-items: stretch;
+      margin-top: 96px;
+  
+}
+.containercontact .information{
+    width: 50%;
+    margin-left: 30px;
+  
+}
+.containercontact .information h4{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.containercontact .information h4 span #i1{
+    color:red;
+}
+.containercontact .information h4 span #i3{
+    color: white;
+}
+.containercontact .information h4 span #i4{
+    color:  white;
+}
+.containercontact .information h4 span a{
+    text-decoration: none;
+    color: white;
+}
+.containercontact .information h4 span a:hover{
+    color: brown;
+}
+.containercontact .contactform{
+    width: 50%;
+    margin-right: 30px;
+}
+.contactform input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid orange;
+    border-radius: 8px;
+}
+.contactform input[type="submit"]{
+    background-color: orange;
+}
+
+
+
+
+
+
+
